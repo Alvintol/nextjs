@@ -7,9 +7,7 @@ const Home = ({ articles }) => {
         <title>Webdev Newz</title>
         <meta name='keywords' content='web development, programming' />
       </Head>
-      {articles.map(article =>
-        <h3>{article.title}</h3>
-      )}
+      
     </div>
   )
 };
