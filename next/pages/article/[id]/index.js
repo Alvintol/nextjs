@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/dist/client/router';
 
 
@@ -13,7 +14,7 @@ const article = ({ article }) => {
     <p>{body}</p>
     <br />
 
-    
+
     </>
   )
 };
