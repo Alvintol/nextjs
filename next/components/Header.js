@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div>
       <h1 className={title}>
-        <span>WebDev</span> News
+        <span>NextJS</span> Project
       </h1>
       <p className={description}>
-        Keep up to date with the latest Web Dev news
+        Deploying my first NextJS Project with basic fundamental coverage
       </p>
     </div>
   )

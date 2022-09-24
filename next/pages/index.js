@@ -5,7 +5,7 @@ const Home = ({ articles }) => {
   return (
     <div>
       <Head>
-        <title>Webdev Newz</title>
+        <title>NextJS Project</title>
         <meta name='keywords' content='web development, programming' />
       </Head>
       <ArticleList
