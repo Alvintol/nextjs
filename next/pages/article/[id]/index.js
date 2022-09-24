@@ -5,11 +5,15 @@ const article = ({ article }) => {
   // const router = useRouter();
   // const {id} = router.query;
 
-  const { id } = article;
+  const { id, title, body } = article;
 
   return (
     <>
-    This is article #{id}
+    <h1>{title}</h1>
+    <p>{body}</p>
+    <br />
+
+    
     </>
   )
 };
