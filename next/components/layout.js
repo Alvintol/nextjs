@@ -1,15 +1,19 @@
 import styles from '../styles/Layout.module.css'
+import Nav from './Nav';
 
 const Layout = ({ children }) => {
 
   const { container, main } = styles;
 
   return (
-    <div className={container}>
-      <main className={main}>
-        {children}
-      </main>
-    </div>
+    <>
+      <Nav />
+      <div className={container}>
+        <main className={main}>
+          {children}
+        </main>
+      </div>
+    </>
   )
 }
 
