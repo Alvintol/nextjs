@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ArticleList from '../components/ArticleList';
 
 const Home = ({ articles }) => {
   return (
@@ -7,7 +8,9 @@ const Home = ({ articles }) => {
         <title>Webdev Newz</title>
         <meta name='keywords' content='web development, programming' />
       </Head>
-      
+      <ArticleList
+        articles={articles}
+      />
     </div>
   )
 };
