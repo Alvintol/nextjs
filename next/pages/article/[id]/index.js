@@ -14,7 +14,7 @@ const article = ({ article }) => {
     <p>{body}</p>
     <br />
 
-
+    <Link href='/'>Go Back</Link>
     </>
   )
 };
