@@ -1,10 +1,16 @@
-import styles from '../styles/Nav.module.css';
+import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
+
+  const { nav } = navStyles;
   return (
-    <div>
-      Nav
-    </div>
+    <nav className={nav}>
+      <ul>
+        <li>
+
+        </li>
+      </ul>
+    </nav>
   )
 }
 
