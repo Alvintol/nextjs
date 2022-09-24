@@ -9,6 +9,7 @@ const ArticleList = ({ articles }) => {
     <div className={grid}>
       {articles.map(article =>
         <ArticleItem
+          key={article.id}
           article={article}
         />
       )}
