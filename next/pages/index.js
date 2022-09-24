@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const Home = () => {
+const Home = ({ articles }) => {
   return (
     <div>
       <Head>
