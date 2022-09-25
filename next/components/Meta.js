@@ -13,4 +13,10 @@ const Meta = ({ title, keywords, description }) => {
   )
 };
 
+Meta.defaultProps = {
+  title: 'NextJS App',
+  keywords: 'web development, programming',
+  description: 'First NextJS deployed app'
+};
+
 export default Meta;
